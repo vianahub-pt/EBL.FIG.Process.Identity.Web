@@ -5,7 +5,7 @@ type: task
 priority: Alta
 severity: Média
 complexity: Baixa
-status: For Tests
+status: For Deploy
 developer: dev-j
 branch: fix/TASK-002-npm-audit-vulnerabilities
 pr: https://github.com/vianahub-pt/EBL.FIG.Process.Identity.Web/pull/new/fix/TASK-002-npm-audit-vulnerabilities
