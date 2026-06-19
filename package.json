@@ -62,6 +62,7 @@
     "typescript": "^5"
   },
   "overrides": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "postcss": "^8.5.10"
   }
 }
