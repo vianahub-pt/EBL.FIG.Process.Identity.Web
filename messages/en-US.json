@@ -1,0 +1,261 @@
+{
+  "auth": {
+    "login": {
+      "title": "Sign in to the platform",
+      "subtitle": "Welcome back",
+      "loginIdentifier": "Username or Email",
+      "loginIdentifierPlaceholder": "Enter your username or email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "loading": "Authenticating...",
+      "error": {
+        "invalidCredentials": "Invalid credentials. Please check your username and password.",
+        "generic": "An error occurred. Please try again."
+      },
+      "successTitle": "Login successful",
+      "welcomeMessage": "Welcome, {name}"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "roles": "Roles",
+    "actions": "Actions",
+    "resources": "Resources",
+    "apps": "Applications",
+    "tenants": "Tenants",
+    "rolePermissions": "Role Permissions",
+    "userRoles": "User Roles",
+    "jobs": "Jobs",
+    "settings": "Settings",
+    "admin": "Administration"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": {
+      "users": "Total Users",
+      "roles": "Total Roles",
+      "actions": "Total Actions",
+      "resources": "Total Resources",
+      "apps": "Total Applications",
+      "tenants": "Total Tenants",
+      "permissions": "Total Permissions",
+      "userRoles": "Assigned Roles"
+    },
+    "charts": {
+      "usersByStatus": "Users by Status",
+      "appsByStatus": "Applications by Status",
+      "rolesDistribution": "Roles Distribution",
+      "rolesPermissions": "Roles & Permissions",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "error": {
+      "loadFailed": "Failed to load dashboard metrics. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "logout": "Sign out",
+    "profile": "Profile",
+    "language": "Language",
+    "previous": "Previous",
+    "next": "Next",
+    "filter": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page"
+    },
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "actions": {
+    "title": "Actions",
+    "newAction": "New Action",
+    "importCsv": "Import CSV",
+    "search": "Search actions...",
+    "filterAll": "All",
+    "filterActive": "Active",
+    "filterInactive": "Inactive",
+    "previous": "Previous",
+    "next": "Next",
+    "empty": "No actions found.",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "columns": {
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "create": {
+      "title": "New Action",
+      "appId": "Application ID",
+      "name": "Name",
+      "description": "Description",
+      "submit": "Create",
+      "success": "Action created successfully.",
+      "error": "Failed to create action."
+    },
+    "edit": {
+      "title": "Edit Action",
+      "name": "Name",
+      "description": "Description",
+      "submit": "Save",
+      "success": "Action updated successfully.",
+      "error": "Failed to update action."
+    },
+    "activate": {
+      "label": "Activate",
+      "success": "Action activated successfully."
+    },
+    "deactivate": {
+      "label": "Deactivate",
+      "title": "Deactivate Action",
+      "confirm": "Are you sure you want to deactivate this action?",
+      "success": "Action deactivated successfully."
+    },
+    "delete": {
+      "label": "Delete",
+      "title": "Delete Action",
+      "confirm": "Are you sure you want to delete this action?",
+      "success": "Action deleted successfully."
+    },
+    "detail": {
+      "label": "View Details",
+      "title": "Action Details",
+      "id": "ID",
+      "close": "Close"
+    },
+    "bulk": {
+      "title": "Import Actions via CSV",
+      "selectFile": "Select CSV file",
+      "submit": "Import",
+      "success": "Actions imported successfully."
+    }
+  },
+  "apps": {
+    "title": "Applications",
+    "description": "System applications management",
+    "search": "Search application",
+    "empty": "No applications found.",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "active": "Active",
+    "inactive": "Inactive",
+    "notFound": "Application not found",
+    "filter": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "tenantId": "Tenant",
+      "isActive": "Status",
+      "actions": "Actions"
+    },
+    "create": {
+      "button": "New Application",
+      "title": "Create Application",
+      "submit": "Create",
+      "success": "Application created successfully.",
+      "error": "Failed to create application."
+    },
+    "edit": {
+      "title": "Edit Application",
+      "submit": "Save",
+      "success": "Application updated successfully.",
+      "error": "Failed to update application."
+    },
+    "delete": {
+      "label": "Delete",
+      "title": "Delete Application",
+      "confirm": "Are you sure you want to delete this application?",
+      "success": "Application deleted successfully.",
+      "error": "Failed to delete application."
+    },
+    "bulkUpload": {
+      "button": "Import CSV",
+      "title": "Import Applications",
+      "selectFile": "Select CSV file",
+      "submit": "Import",
+      "success": "Applications imported successfully.",
+      "error": "Failed to import applications."
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Application name",
+      "description": "Description",
+      "descriptionPlaceholder": "Application description"
+    },
+    "detail": {
+      "label": "View Details",
+      "title": "Application Details",
+      "close": "Close"
+    }
+  },
+  "roles": {
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "edit": {
+      "title": "Edit Role",
+      "submit": "Save",
+      "success": "Role updated successfully",
+      "error": "Failed to update role"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Role name",
+      "nameRequired": "Name is required",
+      "nameMax": "Name cannot exceed 100 characters",
+      "description": "Description",
+      "descriptionPlaceholder": "Role description",
+      "descriptionMax": "Description cannot exceed 255 characters"
+    }
+  },
+  "table": {
+    "paginating": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of",
+      "pageSize": "Rows per page",
+      "showing": "Showing {{from}} to {{to}} of {{total}} results",
+      "noResults": "No results"
+    },
+    "sorting": {
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "notSorted": "Not sorted"
+    },
+    "selection": {
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "selected": "{{count}} selected"
+    }
+  },
+  "errors": {
+    "boundary": {
+      "title": "An unexpected error occurred",
+      "retry": "Try again",
+      "description": "Please try again. If the problem persists, contact support."
+    }
+  }
+}

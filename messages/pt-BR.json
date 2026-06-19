@@ -1,0 +1,261 @@
+{
+  "auth": {
+    "login": {
+      "title": "Entrar na plataforma",
+      "subtitle": "Bem-vindo de volta",
+      "loginIdentifier": "Utilizador ou Email",
+      "loginIdentifierPlaceholder": "Digite seu utilizador ou email",
+      "password": "Palavra-passe",
+      "passwordPlaceholder": "Digite sua palavra-passe",
+      "submit": "Entrar",
+      "loading": "A autenticar...",
+      "error": {
+        "invalidCredentials": "Credenciais inválidas. Verifique o utilizador e a palavra-passe.",
+        "generic": "Ocorreu um erro. Tente novamente."
+      },
+      "successTitle": "Login realizado com sucesso",
+      "welcomeMessage": "Bem-vindo, {name}"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Utilizadores",
+    "roles": "Funções",
+    "actions": "Ações",
+    "resources": "Recursos",
+    "apps": "Aplicações",
+    "tenants": "Inquilinos",
+    "rolePermissions": "Permissões de Função",
+    "userRoles": "Funções de Utilizador",
+    "jobs": "Trabalhos",
+    "settings": "Configurações",
+    "admin": "Administração"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": {
+      "users": "Total de Utilizadores",
+      "roles": "Total de Funções",
+      "actions": "Total de Ações",
+      "resources": "Total de Recursos",
+      "apps": "Total de Aplicações",
+      "tenants": "Total de Inquilinos",
+      "permissions": "Total de Permissões",
+      "userRoles": "Funções Atribuídas"
+    },
+    "charts": {
+      "usersByStatus": "Utilizadores por Status",
+      "appsByStatus": "Aplicações por Status",
+      "rolesDistribution": "Distribuição de Funções",
+      "rolesPermissions": "Funções e Permissões",
+      "active": "Ativos",
+      "inactive": "Inativos"
+    },
+    "error": {
+      "loadFailed": "Falha ao carregar métricas do dashboard. Por favor, tente novamente."
+    }
+  },
+  "common": {
+    "loading": "A carregar...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente",
+    "logout": "Terminar sessão",
+    "profile": "Perfil",
+    "language": "Idioma",
+    "previous": "Anterior",
+    "next": "Seguinte",
+    "filter": {
+      "all": "Todos",
+      "active": "Ativo",
+      "inactive": "Inativo"
+    },
+    "pagination": {
+      "rowsPerPage": "Linhas por página"
+    },
+    "theme": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    }
+  },
+  "actions": {
+    "title": "Ações",
+    "newAction": "Nova Ação",
+    "importCsv": "Importar CSV",
+    "search": "Pesquisar ações...",
+    "filterAll": "Todos",
+    "filterActive": "Ativos",
+    "filterInactive": "Inativos",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "empty": "Nenhuma ação encontrada.",
+    "cancel": "Cancelar",
+    "saving": "A guardar...",
+    "columns": {
+      "name": "Nome",
+      "description": "Descrição",
+      "status": "Estado",
+      "actions": "Ações"
+    },
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo"
+    },
+    "create": {
+      "title": "Nova Ação",
+      "appId": "ID da Aplicação",
+      "name": "Nome",
+      "description": "Descrição",
+      "submit": "Criar",
+      "success": "Ação criada com sucesso.",
+      "error": "Erro ao criar ação."
+    },
+    "edit": {
+      "title": "Editar Ação",
+      "name": "Nome",
+      "description": "Descrição",
+      "submit": "Guardar",
+      "success": "Ação atualizada com sucesso.",
+      "error": "Erro ao atualizar ação."
+    },
+    "activate": {
+      "label": "Ativar",
+      "success": "Ação ativada com sucesso."
+    },
+    "deactivate": {
+      "label": "Desativar",
+      "title": "Desativar Ação",
+      "confirm": "Tem a certeza que pretende desativar esta ação?",
+      "success": "Ação desativada com sucesso."
+    },
+    "delete": {
+      "label": "Eliminar",
+      "title": "Eliminar Ação",
+      "confirm": "Tem a certeza que pretende eliminar esta ação?",
+      "success": "Ação eliminada com sucesso."
+    },
+    "detail": {
+      "label": "Ver Detalhe",
+      "title": "Detalhe da Ação",
+      "id": "ID",
+      "close": "Fechar"
+    },
+    "bulk": {
+      "title": "Importar Ações via CSV",
+      "selectFile": "Selecionar ficheiro CSV",
+      "submit": "Importar",
+      "success": "Ações importadas com sucesso."
+    }
+  },
+  "apps": {
+    "title": "Aplicações",
+    "description": "Gestão de aplicações do sistema",
+    "search": "Pesquisar aplicação",
+    "empty": "Nenhuma aplicação encontrada.",
+    "cancel": "Cancelar",
+    "saving": "A guardar...",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "notFound": "Aplicação não encontrada",
+    "filter": {
+      "all": "Todos",
+      "active": "Activos",
+      "inactive": "Inactivos"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Nome",
+      "description": "Descrição",
+      "tenantId": "Tenant",
+      "isActive": "Estado",
+      "actions": "Acções"
+    },
+    "create": {
+      "button": "Nova Aplicação",
+      "title": "Criar Aplicação",
+      "submit": "Criar",
+      "success": "Aplicação criada com sucesso.",
+      "error": "Erro ao criar aplicação."
+    },
+    "edit": {
+      "title": "Editar Aplicação",
+      "submit": "Guardar",
+      "success": "Aplicação actualizada com sucesso.",
+      "error": "Erro ao actualizar aplicação."
+    },
+    "delete": {
+      "label": "Eliminar",
+      "title": "Eliminar Aplicação",
+      "confirm": "Tem a certeza que pretende eliminar esta aplicação?",
+      "success": "Aplicação eliminada com sucesso.",
+      "error": "Erro ao eliminar aplicação."
+    },
+    "bulkUpload": {
+      "button": "Importar CSV",
+      "title": "Importar Aplicações",
+      "selectFile": "Selecionar ficheiro CSV",
+      "submit": "Importar",
+      "success": "Aplicações importadas com sucesso.",
+      "error": "Erro ao importar aplicações."
+    },
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Nome da aplicação",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Descrição da aplicação"
+    },
+    "detail": {
+      "label": "Ver Detalhe",
+      "title": "Detalhe da Aplicação",
+      "close": "Fechar"
+    }
+  },
+  "roles": {
+    "cancel": "Cancelar",
+    "saving": "A guardar...",
+    "edit": {
+      "title": "Editar Papel",
+      "submit": "Guardar",
+      "success": "Papel actualizado com sucesso",
+      "error": "Erro ao actualizar papel"
+    },
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Nome do papel",
+      "nameRequired": "O nome é obrigatório",
+      "nameMax": "O nome não pode ter mais de 100 caracteres",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Descrição do papel",
+      "descriptionMax": "A descrição não pode ter mais de 255 caracteres"
+    }
+  },
+  "table": {
+    "paginating": {
+      "previous": "Anterior",
+      "next": "Próximo",
+      "page": "Página",
+      "of": "de",
+      "pageSize": "Linhas por página",
+      "showing": "Mostrando {{from}} até {{to}} de {{total}} resultados",
+      "noResults": "Sem resultados"
+    },
+    "sorting": {
+      "ascending": "Ascendente",
+      "descending": "Descendente",
+      "notSorted": "Não ordenado"
+    },
+    "selection": {
+      "selectAll": "Seleccionar todos",
+      "deselectAll": "Desseleccionar todos",
+      "selected": "{{count}} seleccionado(s)"
+    }
+  },
+  "errors": {
+    "boundary": {
+      "title": "Ocorreu um erro inesperado",
+      "retry": "Tentar novamente",
+      "description": "Por favor, tente novamente. Se o problema persistir, contacte o suporte."
+    }
+  }
+}
